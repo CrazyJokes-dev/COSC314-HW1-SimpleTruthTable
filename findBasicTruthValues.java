@@ -1,3 +1,11 @@
+/*
+ * Name: Estefan Valencia
+ * Program description: This program calculates the values of basic expressions in truth tables				
+ * Course: COSC 314, Fall 2021
+ * Homework#:  on Page 119, Computer Project #1 
+ * Due date: 09/11/21 @ 11:59pm
+ */
+
 package hw1;
 
 public class findBasicTruthValues {
@@ -158,3 +166,14 @@ public class findBasicTruthValues {
 	}
 
 }
+
+/**** Desired Output ****
+
+P | Q | AND | OR | XOR | CONDITIONAL | BICONDITIONAL 
+
+0 | 0 | 0   | 0  | 0   | 1           | 1 
+0 | 1 | 0   | 1  | 1   | 1           | 0 
+1 | 0 | 0   | 1  | 1   | 0           | 0 
+1 | 1 | 1   | 1  | 0   | 1           | 1 
+
+*/
